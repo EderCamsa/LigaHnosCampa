@@ -1,0 +1,456 @@
+/*Esto se mantiene*/
+body {
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to center, #232526, #414345);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to center, #232526, #414345);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Roboto', sans-serif;
+}
+.links:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.links:visited {
+    color: #FFFFFF;
+}
+
+.nav{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 50%;
+}
+.iconotif{
+    border-radius: 50%;
+}
+.fondo {
+    width: 100%;
+    background-repeat: repeat-y;
+}
+
+#contenido {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url('../recursos/pprincipal.jpg');
+    background-repeat: no-repeat; /* Esto evitará que la imagen se repita */
+    background-size: cover; /* Esto hará que la imagen cubra todo el contenedor */
+    background-position: center center; 
+}
+
+.botonHeader {
+    background-color: crimson;
+    margin-top: 15px;
+    width: 100%;
+    color: #eeee;
+    border-color: black;
+    font-size: 17px;
+    font-family: 'Montserrat',sans-serif;
+    text-shadow: 5px 5px 5px black;
+}
+
+#descripcionTabla {
+    background-color: crimson;
+}
+
+.itemImpar {
+    background-color: #4E4D4C;
+
+}
+
+.itemPar {
+    background-color: gray;
+}
+
+#logo {
+    margin-top: 5px;
+    margin-left: 0;
+    height: 60px; /* Ajusta este valor según tus necesidades */
+    width: auto; /* Mantiene la relación de aspecto */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  #logo {
+    height: 40px; /* Tamaño más pequeño para pantallas pequeñas */
+  }
+}
+
+#iconoNotificacion{
+    margin-left: auto;
+}
+
+#tablaPosiciones {
+    margin-inline: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: white;
+    text-align: center;
+}
+
+th {
+    width: 5%;
+    background-color: crimson;
+}
+
+td {
+    width: 5%;
+    font-style: inherit;
+    margin-right: 30px;
+    
+}
+
+tr {
+    transition: all 0.25s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+}
+
+tr:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 350px;
+    width: 260px;
+    color: white;
+    border-radius: 10px;
+    background-color: crimson;
+    transition: all 0.25s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+    border-color:black;
+}
+
+.card-title {
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+}
+.card-body{
+    
+    font-family: 'Crimson Pro', cursive;
+    font-size: 14px;
+}
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+footer {
+    display: block;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+/*   Noticia-plantilla  la plantilla tiene
+    degradado que se va oscureciendo
+    a medida que se aleja del contenido del centro,
+    si quieren cambiarlo me avisan.*/
+
+.lateralizq {
+    background: #e52d27;
+    background: -webkit-linear-gradient(to left, #e52d27, #b31217);
+    background: linear-gradient(to left, #e52d27, #b31217);
+
+}
+
+.lateralder {
+    background: #e52d27;
+    background: -webkit-linear-gradient(to right, #e52d27, #b31217);
+    background: linear-gradient(to right, #e52d27, #b31217);
+
+}
+
+.centro {
+    background-color: #e52d27;
+    padding: 10px;
+}
+
+.texto-noticias {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;  
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, .6);
+}
+.caja_texto{
+    margin-left: 100px;
+    background-color: rgba(228, 228, 228, 0.933);
+    padding: 10px;
+}
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#1f1f1f;
+    text-decoration: none;
+    opacity:0;
+ 
+    transition: all .4s;
+  }
+  
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+
+/*
+ Dogo feo, no borren esto es para no perderme cuando modifico mi parte :^)
+*/
+
+
+
+#tablaligas{
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: transparent;
+
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height: 10px;
+   width:100%;
+   background-color: rgba(22, 22, 22, 0.288);
+}
+.parent {
+    height: 200px;
+    background: #afa7a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+ .child {
+    background-color: #FFFF00;
+    width: 100px;
+    height: 100px;
+ }
+ .margin{
+     margin-left:  20px; 
+     margin-right: 20px;
+ }
+ 
+ .btnComentar{
+     background-color: white;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-radius: 10px;
+ }
+ .media{
+     background-color: whitesmoke;
+     margin-bottom: 10px;
+     border-radius: 10px;
+ }
+ .mediaInicio{
+     text-align: start;
+ }
+ .mediaFin{
+     text-align: end;
+ }
+ .fotoUser{
+     margin-top: 5px;
+ }
+ .card2 {
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 150px;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.25s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+    border-color:black;
+    text-align: center;
+    font-size: 12px;
+}
+
+.card2-title {
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+}
+.card2:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card2-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.options > div{
+    z-index: 10;
+    transition: allb450ms linear;
+}
+.check, .openButtom, .options > div{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+div i{
+    color: #041119;
+    font-size: 24px;
+}
+.openButtom{
+    transform: rotate(1deg);
+    
+    transition: all 0.25s;
+
+    z-index: 20;
+    background-color:white;
+}
+.check{
+    opacity: 0;
+    z-index: 30;
+}
+.check:checked ~ .openButtom ~ .options > 
+div:nth-child(1){
+    margin-top: 60px;
+}
+.check:checked ~ .openButtom ~ .options > 
+div:nth-child(2){
+    margin-top: 120px;
+}
+.check:checked ~ .openButtom ~ .options > 
+div:nth-child(3){
+    margin-top: 180px;
+}
+.check:checked ~ .openButtom ~ .options > 
+div:nth-child(4){
+    margin-top: 240px;
+}
+.check:checked ~ .openButtom ~ .options > 
+div:nth-child(5){
+    margin-top: 300px;
+}
+.check:checked ~ .openButtom{
+    transform: rotate(180deg);
+}
+.columnaCentrada{
+    margin: auto;
+}
+.equipo{
+    background-image: url('../recursos/cardEquipo.jpg');
+}
+
+.login-btn {
+    width: 85px;
+    line-height: 38px;
+    padding: 0;
+    color: rgba(4,4,19,0.56);
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+}
+.opcionComentarios{
+    color: darkslategray;
+    text-decoration: none;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+/*nacho parte mia*/
+#mojon{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;    
+}
+
+
+/* Asegúrate de que estos estilos vengan después de cualquier framework o estilos preexistentes para que tengan prioridad */
+
+.facebook-btn {
+    background-color: #4267B2; /* Color de fondo de Facebook */
+    color: white; /* Texto del botón en blanco */
+  }
+  
+  .facebook-btn:hover {
+    background-color: #365899; /* Un azul un poco más oscuro para el efecto hover */
+    color: white;
+  }
+  
+  .facebook-text {
+    color: #4267B2; /* Color de texto de Facebook */
+    font-size: 1.2em; /* Tamaño del texto */
+    margin-top: 0.5em; /* Espacio sobre el texto */
+  }
+  
+  /* Estilos adicionales para el footer, si es necesario */
+  .footer-moderno {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Fondo oscuro para el footer */
+  }
+  
+  .footer-moderno p {
+    margin-top: 0.5em;
+  }
+  
+  .bg-opacity-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-white {
+    color: #fff!important;
+  }
+  
+  
+
+.fechapartido{
+    background-color: gray ;
+    width: 722% ;
+    text-align: center;
+    
+
+    
+}
+#texto-noticia{
+
+font-family: 'Crimson Pro', serif;
+font-size: 18px;
+
+}
+#titulo-noticia{
+    color:white;
+}
